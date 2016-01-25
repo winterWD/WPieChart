@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C811B8CC1C560ECE0098D8C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C811B8CB1C560ECE0098D8C6 /* main.m */; };
+		C811B8CF1C560ECE0098D8C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C811B8CE1C560ECE0098D8C6 /* AppDelegate.m */; };
+		C811B8D21C560ECE0098D8C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C811B8D11C560ECE0098D8C6 /* ViewController.m */; };
+		C811B8D51C560ECE0098D8C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C811B8D31C560ECE0098D8C6 /* Main.storyboard */; };
+		C811B8D71C560ECE0098D8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C811B8D61C560ECE0098D8C6 /* Assets.xcassets */; };
+		C811B8DA1C560ECE0098D8C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C811B8D81C560ECE0098D8C6 /* LaunchScreen.storyboard */; };
+		C811B8E51C560ECE0098D8C6 /* WPieChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C811B8E41C560ECE0098D8C6 /* WPieChartTests.m */; };
+		C811B8F01C560ECE0098D8C6 /* WPieChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C811B8EF1C560ECE0098D8C6 /* WPieChartUITests.m */; };
+		C811B9001C560F3A0098D8C6 /* WPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C811B8FF1C560F3A0098D8C6 /* WPieChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C811B8E11C560ECE0098D8C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C811B8BF1C560ECE0098D8C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C811B8C61C560ECE0098D8C6;
+			remoteInfo = WPieChart;
+		};
+		C811B8EC1C560ECE0098D8C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C811B8BF1C560ECE0098D8C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C811B8C61C560ECE0098D8C6;
+			remoteInfo = WPieChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C811B8C71C560ECE0098D8C6 /* WPieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C811B8CB1C560ECE0098D8C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C811B8CD1C560ECE0098D8C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C811B8CE1C560ECE0098D8C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C811B8D01C560ECE0098D8C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C811B8D11C560ECE0098D8C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C811B8D41C560ECE0098D8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C811B8D61C560ECE0098D8C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C811B8D91C560ECE0098D8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C811B8DB1C560ECE0098D8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C811B8E01C560ECE0098D8C6 /* WPieChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPieChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C811B8E41C560ECE0098D8C6 /* WPieChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPieChartTests.m; sourceTree = "<group>"; };
+		C811B8E61C560ECE0098D8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C811B8EB1C560ECE0098D8C6 /* WPieChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPieChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C811B8EF1C560ECE0098D8C6 /* WPieChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPieChartUITests.m; sourceTree = "<group>"; };
+		C811B8F11C560ECE0098D8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C811B8FE1C560F3A0098D8C6 /* WPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPieChartView.h; sourceTree = "<group>"; };
+		C811B8FF1C560F3A0098D8C6 /* WPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPieChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C811B8C41C560ECE0098D8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C811B8DD1C560ECE0098D8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C811B8E81C560ECE0098D8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C811B8BE1C560ECE0098D8C6 = {
+			isa = PBXGroup;
+			children = (
+				C811B8C91C560ECE0098D8C6 /* WPieChart */,
+				C811B8E31C560ECE0098D8C6 /* WPieChartTests */,
+				C811B8EE1C560ECE0098D8C6 /* WPieChartUITests */,
+				C811B8C81C560ECE0098D8C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C811B8C81C560ECE0098D8C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C811B8C71C560ECE0098D8C6 /* WPieChart.app */,
+				C811B8E01C560ECE0098D8C6 /* WPieChartTests.xctest */,
+				C811B8EB1C560ECE0098D8C6 /* WPieChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C811B8C91C560ECE0098D8C6 /* WPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				C811B8FD1C560F3A0098D8C6 /* PieChartView */,
+				C811B8CD1C560ECE0098D8C6 /* AppDelegate.h */,
+				C811B8CE1C560ECE0098D8C6 /* AppDelegate.m */,
+				C811B8D01C560ECE0098D8C6 /* ViewController.h */,
+				C811B8D11C560ECE0098D8C6 /* ViewController.m */,
+				C811B8D31C560ECE0098D8C6 /* Main.storyboard */,
+				C811B8D61C560ECE0098D8C6 /* Assets.xcassets */,
+				C811B8D81C560ECE0098D8C6 /* LaunchScreen.storyboard */,
+				C811B8DB1C560ECE0098D8C6 /* Info.plist */,
+				C811B8CA1C560ECE0098D8C6 /* Supporting Files */,
+			);
+			path = WPieChart;
+			sourceTree = "<group>";
+		};
+		C811B8CA1C560ECE0098D8C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C811B8CB1C560ECE0098D8C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C811B8E31C560ECE0098D8C6 /* WPieChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				C811B8E41C560ECE0098D8C6 /* WPieChartTests.m */,
+				C811B8E61C560ECE0098D8C6 /* Info.plist */,
+			);
+			path = WPieChartTests;
+			sourceTree = "<group>";
+		};
+		C811B8EE1C560ECE0098D8C6 /* WPieChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C811B8EF1C560ECE0098D8C6 /* WPieChartUITests.m */,
+				C811B8F11C560ECE0098D8C6 /* Info.plist */,
+			);
+			path = WPieChartUITests;
+			sourceTree = "<group>";
+		};
+		C811B8FD1C560F3A0098D8C6 /* PieChartView */ = {
+			isa = PBXGroup;
+			children = (
+				C811B8FE1C560F3A0098D8C6 /* WPieChartView.h */,
+				C811B8FF1C560F3A0098D8C6 /* WPieChartView.m */,
+			);
+			path = PieChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C811B8C61C560ECE0098D8C6 /* WPieChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C811B8F41C560ECE0098D8C6 /* Build configuration list for PBXNativeTarget "WPieChart" */;
+			buildPhases = (
+				C811B8C31C560ECE0098D8C6 /* Sources */,
+				C811B8C41C560ECE0098D8C6 /* Frameworks */,
+				C811B8C51C560ECE0098D8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPieChart;
+			productName = WPieChart;
+			productReference = C811B8C71C560ECE0098D8C6 /* WPieChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C811B8DF1C560ECE0098D8C6 /* WPieChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C811B8F71C560ECE0098D8C6 /* Build configuration list for PBXNativeTarget "WPieChartTests" */;
+			buildPhases = (
+				C811B8DC1C560ECE0098D8C6 /* Sources */,
+				C811B8DD1C560ECE0098D8C6 /* Frameworks */,
+				C811B8DE1C560ECE0098D8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C811B8E21C560ECE0098D8C6 /* PBXTargetDependency */,
+			);
+			name = WPieChartTests;
+			productName = WPieChartTests;
+			productReference = C811B8E01C560ECE0098D8C6 /* WPieChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C811B8EA1C560ECE0098D8C6 /* WPieChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C811B8FA1C560ECE0098D8C6 /* Build configuration list for PBXNativeTarget "WPieChartUITests" */;
+			buildPhases = (
+				C811B8E71C560ECE0098D8C6 /* Sources */,
+				C811B8E81C560ECE0098D8C6 /* Frameworks */,
+				C811B8E91C560ECE0098D8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C811B8ED1C560ECE0098D8C6 /* PBXTargetDependency */,
+			);
+			name = WPieChartUITests;
+			productName = WPieChartUITests;
+			productReference = C811B8EB1C560ECE0098D8C6 /* WPieChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C811B8BF1C560ECE0098D8C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = winter;
+				TargetAttributes = {
+					C811B8C61C560ECE0098D8C6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C811B8DF1C560ECE0098D8C6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C811B8C61C560ECE0098D8C6;
+					};
+					C811B8EA1C560ECE0098D8C6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C811B8C61C560ECE0098D8C6;
+					};
+				};
+			};
+			buildConfigurationList = C811B8C21C560ECE0098D8C6 /* Build configuration list for PBXProject "WPieChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C811B8BE1C560ECE0098D8C6;
+			productRefGroup = C811B8C81C560ECE0098D8C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C811B8C61C560ECE0098D8C6 /* WPieChart */,
+				C811B8DF1C560ECE0098D8C6 /* WPieChartTests */,
+				C811B8EA1C560ECE0098D8C6 /* WPieChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C811B8C51C560ECE0098D8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C811B8DA1C560ECE0098D8C6 /* LaunchScreen.storyboard in Resources */,
+				C811B8D71C560ECE0098D8C6 /* Assets.xcassets in Resources */,
+				C811B8D51C560ECE0098D8C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C811B8DE1C560ECE0098D8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C811B8E91C560ECE0098D8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C811B8C31C560ECE0098D8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C811B9001C560F3A0098D8C6 /* WPieChartView.m in Sources */,
+				C811B8D21C560ECE0098D8C6 /* ViewController.m in Sources */,
+				C811B8CF1C560ECE0098D8C6 /* AppDelegate.m in Sources */,
+				C811B8CC1C560ECE0098D8C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C811B8DC1C560ECE0098D8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C811B8E51C560ECE0098D8C6 /* WPieChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C811B8E71C560ECE0098D8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C811B8F01C560ECE0098D8C6 /* WPieChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C811B8E21C560ECE0098D8C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C811B8C61C560ECE0098D8C6 /* WPieChart */;
+			targetProxy = C811B8E11C560ECE0098D8C6 /* PBXContainerItemProxy */;
+		};
+		C811B8ED1C560ECE0098D8C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C811B8C61C560ECE0098D8C6 /* WPieChart */;
+			targetProxy = C811B8EC1C560ECE0098D8C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C811B8D31C560ECE0098D8C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C811B8D41C560ECE0098D8C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C811B8D81C560ECE0098D8C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C811B8D91C560ECE0098D8C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C811B8F21C560ECE0098D8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C811B8F31C560ECE0098D8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C811B8F51C560ECE0098D8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPieChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.WPieChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C811B8F61C560ECE0098D8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPieChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.WPieChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C811B8F81C560ECE0098D8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPieChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.WPieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPieChart.app/WPieChart";
+			};
+			name = Debug;
+		};
+		C811B8F91C560ECE0098D8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPieChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.WPieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPieChart.app/WPieChart";
+			};
+			name = Release;
+		};
+		C811B8FB1C560ECE0098D8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPieChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.WPieChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPieChart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C811B8FC1C560ECE0098D8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPieChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.WPieChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPieChart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C811B8C21C560ECE0098D8C6 /* Build configuration list for PBXProject "WPieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C811B8F21C560ECE0098D8C6 /* Debug */,
+				C811B8F31C560ECE0098D8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C811B8F41C560ECE0098D8C6 /* Build configuration list for PBXNativeTarget "WPieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C811B8F51C560ECE0098D8C6 /* Debug */,
+				C811B8F61C560ECE0098D8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C811B8F71C560ECE0098D8C6 /* Build configuration list for PBXNativeTarget "WPieChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C811B8F81C560ECE0098D8C6 /* Debug */,
+				C811B8F91C560ECE0098D8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C811B8FA1C560ECE0098D8C6 /* Build configuration list for PBXNativeTarget "WPieChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C811B8FB1C560ECE0098D8C6 /* Debug */,
+				C811B8FC1C560ECE0098D8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C811B8BF1C560ECE0098D8C6 /* Project object */;
+}

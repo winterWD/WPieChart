@@ -3,4 +3,4 @@ PieChart
 
 选中图表区，可放大显示
 
-![github](http://github.com/unicorn.png "github")  
+ ![image](https://github.com/winterWD/WPieChart/blob/master/screenshots/screenshot.png)
